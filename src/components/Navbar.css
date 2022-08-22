@@ -1,0 +1,49 @@
+nav {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  width: calc(100% - 40px);
+  padding: 0 20px;
+}
+
+nav a {
+  background-color: rgb(151, 161, 212);
+  height: 3rem;
+  text-decoration: none;
+  color: #2809b5;
+}
+
+.main-nav__store {
+  flex: 1;
+}
+
+.main-nav__store-name_long {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.main-nav__store-name_short {
+  display: none;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.main-nav__cart-image {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding-right: 1rem;
+}
+
+a:hover,
+a:active {
+  color: #92df5b;
+}
+
+@media (max-width:480px){
+  .main-nav__store-name_long {
+    display: none;
+  }
+  .main-nav__store-name_short {
+    display: inline-block;
+  }
+}

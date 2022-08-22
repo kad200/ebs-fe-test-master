@@ -1,0 +1,106 @@
+#main-store__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #f2341b;
+  color: white;
+}
+
+th,
+td {
+  padding: 8px 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.8rem;
+}
+
+.main-store__add-to-cart {
+  size: 1rem;
+}
+
+@media (max-width: 740px) {
+  td {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  td {
+    font-size: 0.5rem;
+  }
+}
+
+.main-store__add-to-cart {
+  background: rgb(151, 161, 212);
+  border: 2px solid rgb(151, 161, 212);
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 800;
+  line-height: 1rem;
+  width: 3rem;
+  min-height: 2rem;
+  outline: 0;
+  padding: 0.3rem 0.3rem;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.main-store__add-to-cart:hover,
+.main-store__add-to-cart:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #0c0706;
+}
+
+.main-store__add-to-cart:active {
+  opacity: 0.8;
+}
+
+.main-store__remove-from-cart {
+  background: #ff4742;
+  border: 2px solid #ff4742;
+  border-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, 'proxima nova', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
+  line-height: 1rem;
+  min-height: 2rem;
+  width: 3rem;
+  outline: 0;
+  padding: 0.3rem 0.3rem;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.main-store__remove-from-cart:hover,
+.main-store__remove-from-cart:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #0c0706;
+}
+
+.main-store__remove-from-cart:active {
+  opacity: 0.8;
+}
