@@ -1,3 +1,3 @@
 Working with API from one place, now it's in { CartItem, Cart, Store }
-Store => sort
-Store => filter
+Manage filtering issue
+Refactor Store component, make separate functional components for filtering and sorting
